@@ -18,6 +18,8 @@ defaults:
 
 permissions:
   contents: write
+  workflows: write
+  workflow: write
 
 jobs:
   tag-check:
