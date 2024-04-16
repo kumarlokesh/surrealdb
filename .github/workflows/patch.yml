@@ -18,7 +18,7 @@ defaults:
 
 permissions:
   contents: write
-  workflow: write
+  actions: write
 
 jobs:
   tag-check:
