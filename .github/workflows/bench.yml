@@ -10,10 +10,6 @@ defaults:
   run:
     shell: bash
 
-  permissions:
-    workflows: write
-    workflow: write
-
 #
 # The bench jobs will:
 # 1. Run the benchmark and save the results as a baseline named "current"
