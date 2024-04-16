@@ -18,6 +18,7 @@ defaults:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   tag-check:
