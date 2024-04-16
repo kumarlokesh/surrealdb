@@ -81,4 +81,6 @@ jobs:
           git commit -am "Bump version to v${version}"
 
       - name: Push the new branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_PLZ_TOKEN }} # Need the custom user token here to push the new branch
         run: git push
